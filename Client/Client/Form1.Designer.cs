@@ -31,6 +31,8 @@
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.LoadImage = new System.Windows.Forms.Button();
             this.SendImage = new System.Windows.Forms.Button();
+            this.label = new System.Windows.Forms.Label();
+            this.enterIP = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,11 +65,30 @@
             this.SendImage.UseVisualStyleBackColor = true;
             this.SendImage.Click += new System.EventHandler(this.SendImage_Click);
             // 
+            // label
+            // 
+            this.label.AutoSize = true;
+            this.label.Location = new System.Drawing.Point(453, 382);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(75, 13);
+            this.label.TabIndex = 3;
+            this.label.Text = "Enter server ip";
+            // 
+            // enterIP
+            // 
+            this.enterIP.Location = new System.Drawing.Point(430, 401);
+            this.enterIP.Name = "enterIP";
+            this.enterIP.Size = new System.Drawing.Size(126, 20);
+            this.enterIP.TabIndex = 4;
+            this.enterIP.Text = "localhost";
+            // 
             // Client
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.enterIP);
+            this.Controls.Add(this.label);
             this.Controls.Add(this.SendImage);
             this.Controls.Add(this.LoadImage);
             this.Controls.Add(this.pictureBox);
@@ -75,6 +96,7 @@
             this.Text = "Client";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -83,6 +105,8 @@
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.Button LoadImage;
         private System.Windows.Forms.Button SendImage;
+        private System.Windows.Forms.Label label;
+        private System.Windows.Forms.TextBox enterIP;
     }
 }
 
