@@ -1,0 +1,10 @@
+D:\IntensiveLearnC#\TCPServer\Server\Server\bin\Debug\Server.exe.config
+D:\IntensiveLearnC#\TCPServer\Server\Server\bin\Debug\Server.exe
+D:\IntensiveLearnC#\TCPServer\Server\Server\bin\Debug\Server.pdb
+D:\IntensiveLearnC#\TCPServer\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+D:\IntensiveLearnC#\TCPServer\Server\Server\obj\Debug\Server.Form1.resources
+D:\IntensiveLearnC#\TCPServer\Server\Server\obj\Debug\Server.Properties.Resources.resources
+D:\IntensiveLearnC#\TCPServer\Server\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\IntensiveLearnC#\TCPServer\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\IntensiveLearnC#\TCPServer\Server\Server\obj\Debug\Server.exe
+D:\IntensiveLearnC#\TCPServer\Server\Server\obj\Debug\Server.pdb
